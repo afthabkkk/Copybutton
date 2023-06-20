@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>ssc code</title>
+</head>
+<body>
+    <style>
+        button {
+            position:absolute;
+            margin-top: 20px;
+            width:40px;
+        }
+    </style>
+    
+    <style>
+        body {
+            background-color: rgb(25, 166, 46);
+        }
+    </style>
+    
+    <style>
+        textarea {
+            background-color: white;
+            height: 60vh;
+            width: 80vw;
+        }
+    </style>
+    
+    <script>
+        function copyToClipboard() {
+            var textarea = document.getElementById("myInput");
+            textarea.select();
+            document.execCommand("copy");
+            alert("Copied to clipboard!");
+        }
+    </script>
+    
+    <center>
+        <h1>ssc<br/>
+        (system software and compilers)
+        </h1>
+        
+        <strong>program 1</strong><br/>
+        
+        <textarea id="myInput">
+            <!-- Your program 1 code here -->
+            Certainly! Here are some phrases in English:
+
+1. "Time flies when you're having fun."
+2. "Actions speak louder than words."
+3. "A picture is worth a thousand words."
+4. "Every cloud has a silver lining."
+5. "When in Rome, do as the Romans do."
+6. "Practice makes perfect."
+7. "Better late than never."
+8. "Beauty is in the eye of the beholder."
+9. "The early bird catches the worm."
+10. "Two heads are better than one."
+
+I hope you find these phrases helpful! Let me know if there's anything else I can assist you with.
+        </textarea>
+        <button onclick="copyToClipboard()">Copy</button>
+    </center>
+
+    <!-- Rest of your HTML code -->
+</body>
+</html>
